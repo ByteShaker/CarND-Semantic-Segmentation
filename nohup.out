@@ -1,0 +1,53 @@
+2017-09-04 13:52:06.732336: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-09-04 13:52:06.732731: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla M60
+major: 5 minor: 2 memoryClockRate (GHz) 1.1775
+pciBusID 0000:00:1e.0
+Total memory: 7.43GiB
+Free memory: 7.36GiB
+2017-09-04 13:52:06.732752: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-09-04 13:52:06.732759: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-09-04 13:52:06.732773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2017-09-04 13:52:06.819482: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2017-09-04 13:52:06.820690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2017-09-04 13:52:06.969472: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2017-09-04 13:52:06.979677: I tensorflow/compiler/xla/service/platform_util.cc:58] platform CUDA present with 1 visible devices
+2017-09-04 13:52:06.979717: I tensorflow/compiler/xla/service/platform_util.cc:58] platform Host present with 16 visible devices
+2017-09-04 13:52:06.984385: I tensorflow/compiler/xla/service/service.cc:198] XLA service 0x32b55a0 executing computations on platform Host. Devices:
+2017-09-04 13:52:06.984419: I tensorflow/compiler/xla/service/service.cc:206]   StreamExecutor device (0): <undefined>, <undefined>
+2017-09-04 13:52:06.984592: I tensorflow/compiler/xla/service/platform_util.cc:58] platform CUDA present with 1 visible devices
+2017-09-04 13:52:06.984606: I tensorflow/compiler/xla/service/platform_util.cc:58] platform Host present with 16 visible devices
+2017-09-04 13:52:06.987142: I tensorflow/compiler/xla/service/service.cc:198] XLA service 0x350fc20 executing computations on platform CUDA. Devices:
+2017-09-04 13:52:06.987163: I tensorflow/compiler/xla/service/service.cc:206]   StreamExecutor device (0): Tesla M60, Compute Capability 5.2
+2017-09-04 13:52:07.191013: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2017-09-04 13:52:07.198731: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+TensorFlow Version: 1.2.1
+Default GPU Device: /gpu:0
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Training ...
+
+Epoch: 0/20 | Execution Time: 66.439278 sec | Loss: 0.6430293917655945
+Epoch: 1/20 | Execution Time: 130.029595 sec | Loss: 0.20285025238990784
+Epoch: 2/20 | Execution Time: 193.685033 sec | Loss: 0.24167682230472565
+Epoch: 3/20 | Execution Time: 257.304947 sec | Loss: 0.18863700330257416
+Epoch: 4/20 | Execution Time: 320.911051 sec | Loss: 0.1578303724527359
+Epoch: 5/20 | Execution Time: 384.488965 sec | Loss: 0.03988323360681534
+Epoch: 6/20 | Execution Time: 448.131852 sec | Loss: 0.08376017957925797
+Epoch: 7/20 | Execution Time: 511.64694499999996 sec | Loss: 0.09108227491378784
+Epoch: 8/20 | Execution Time: 575.202636 sec | Loss: 0.06329227983951569
+Epoch: 9/20 | Execution Time: 638.610411 sec | Loss: 0.034082911908626556
+Epoch: 10/20 | Execution Time: 702.150899 sec | Loss: 0.05172254890203476
+Epoch: 11/20 | Execution Time: 765.629053 sec | Loss: 0.019183998927474022
+Epoch: 12/20 | Execution Time: 829.066827 sec | Loss: 0.1499841958284378
+Epoch: 13/20 | Execution Time: 892.524332 sec | Loss: 0.07374262809753418
+Epoch: 14/20 | Execution Time: 955.955072 sec | Loss: 0.06685054302215576
+Epoch: 15/20 | Execution Time: 1019.3639690000001 sec | Loss: 0.041183363646268845
+Epoch: 16/20 | Execution Time: 1082.7107669999998 sec | Loss: 0.025948239490389824
+Epoch: 17/20 | Execution Time: 1146.109487 sec | Loss: 0.0800510123372078
+Epoch: 18/20 | Execution Time: 1209.442368 sec | Loss: 0.062723807990551
+Epoch: 19/20 | Execution Time: 1272.7973559999998 sec | Loss: 0.03899918496608734
+Training Finished. Saving test images to: ./runs/1504534748.543801
