@@ -134,9 +134,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
     :param keep_prob: TF Placeholder for dropout keep probability
     :param learning_rate: TF Placeholder for learning rate
     """
-    outFile = open("output.txt", 'a')
     print("Training ..." + "\n")
-    outFile.write("Training..." + "\n")
 
     start_time = time.clock()
 
@@ -152,9 +150,6 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
         train_time = end_time - start_time
         print("Epoch: {}/{} | Execution Time: {} sec | Loss: {}".format(epoch, epochs, train_time, loss))
 
-        outFile.write("Epoch: {}/{} | Execution Time: {} sec | Loss: {}".format(epoch, epochs, train_time, loss))
-
-    outFile.close()
     pass
 tests.test_train_nn(train_nn)
 
@@ -166,7 +161,7 @@ def run():
     runs_dir = './runs'
     tests.test_for_kitti_dataset(data_dir)
 
-    epochs = 25
+    epochs = 30
     batch_size = 16
 
     # Download pretrained vgg model
