@@ -144,7 +144,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
         for batch_input, batch_label in batches:
             _, loss = sess.run([train_op, cross_entropy_loss],
                                feed_dict={input_image: batch_input, correct_label: batch_label, keep_prob: 0.5,
-                                          learning_rate: 1e-4})
+                                          learning_rate: 1e-5})
 
         end_time = time.clock()
         train_time = end_time - start_time
